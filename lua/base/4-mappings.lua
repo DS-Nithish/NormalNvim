@@ -1024,6 +1024,10 @@ if is_available("telescope.nvim") then
       function() vim.cmd("CompilerOpen") end,
       desc = "Open compiler",
     }
+      maps.n["<F5>"] = {
+      function() vim.cmd("CompilerOpen") end,
+      desc = "Open compiler",
+    }
     maps.n["<leader>mr"] = {
       function() vim.cmd("CompilerRedo") end,
       desc = "Compiler redo",
